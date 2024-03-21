@@ -1,13 +1,26 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* ROOT VARIABLES */
+:root{
+  --header-color:#39aebc;
+  --footer-color:#f6f6f6;
+  --light-blue:#f2fbf9;
+  --gray:#657a93;
+  --sea-green:#41b494;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* HELPERS */
+.popup-header{
+  background-color:var(--header-color) ;
+}
+.remove-btn{
+  background-color: var(--light-blue) !important;
+  color:var(--gray);
+}
+.modal-footer{
+  background-color: var(--footer-color);
+}
+.save-seg-btn{
+  background-color: var(--sea-green);
+}
+.text-sea-green{
+  color:var(--sea-green);
 }
